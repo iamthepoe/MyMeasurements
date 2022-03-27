@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgb(8,151,254);
+background: linear-gradient(90deg, rgba(8,151,254,1) 12%, rgba(8,135,254,1) 30%, rgba(0,212,255,1) 70%, rgba(0,212,255,1) 94%, rgba(0,212,255,1) 94%, rgba(0,212,255,1) 94%);
+}
+
+main{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1;
+}
+
+input{
+	text-align: center;
+}
